@@ -8,7 +8,9 @@
     "url": "#"
   },
   "scripts": {
-    "dev": "nodemon index.js --ignore client"
+    "dev": "nodemon index.js --ignore client",
+    "test-server": "mocha ./test/schema/*.spec.js",
+    "test-integration": "mocha ./test/integration/*.integration.spec.js"
   },
   "author": "",
   "license": "ISC",
@@ -38,5 +40,15 @@
     "style-loader": "^0.13.1",
     "webpack": "^2.2.0",
     "webpack-dev-middleware": "^1.9.0"
+  },
+  "devDependencies": {
+    "babel-register": "^6.24.1",
+    "chai": "^4.0.2",
+    "graphql-tester": "0.0.5",
+    "mocha": "^3.4.2",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1",
+    "sinon": "^2.3.6",
+    "sinon-chai": "^2.11.0"
   }
 }

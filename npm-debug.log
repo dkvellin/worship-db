@@ -1,0 +1,110 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'shrinkwrap' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.0
+4 info lifecycle worship-db@1.0.0~preshrinkwrap: worship-db@1.0.0
+5 silly lifecycle worship-db@1.0.0~preshrinkwrap: no script for preshrinkwrap, continuing
+6 warn shrinkwrap Excluding devDependency: /asn1
+7 warn shrinkwrap Excluding devDependency: /assert-plus
+8 warn shrinkwrap Excluding devDependency: /assertion-error
+9 warn shrinkwrap Excluding devDependency: /asynckit
+10 warn shrinkwrap Excluding devDependency: /aws-sign2
+11 warn shrinkwrap Excluding devDependency: /aws4
+12 warn shrinkwrap Excluding devDependency: /bcrypt-pbkdf
+13 warn shrinkwrap Excluding devDependency: /boom
+14 warn shrinkwrap Excluding devDependency: /browser-stdout
+15 warn shrinkwrap Excluding devDependency: /caseless
+16 warn shrinkwrap Excluding devDependency: /chai
+17 warn shrinkwrap Excluding devDependency: /check-error
+18 warn shrinkwrap Excluding devDependency: /combined-stream
+19 warn shrinkwrap Excluding devDependency: /cryptiles
+20 warn shrinkwrap Excluding devDependency: /dashdash
+21 warn shrinkwrap Excluding devDependency: /deep-eql
+22 warn shrinkwrap Excluding devDependency: /delayed-stream
+23 warn shrinkwrap Excluding devDependency: /diff
+24 warn shrinkwrap Excluding devDependency: /ecc-jsbn
+25 warn shrinkwrap Excluding devDependency: /extend
+26 warn shrinkwrap Excluding devDependency: /extsprintf
+27 warn shrinkwrap Excluding devDependency: /forever-agent
+28 warn shrinkwrap Excluding devDependency: /form-data
+29 warn shrinkwrap Excluding devDependency: /formatio
+30 warn shrinkwrap Excluding devDependency: /freeport
+31 warn shrinkwrap Excluding devDependency: /fs.realpath
+32 warn shrinkwrap Excluding devDependency: /get-func-name
+33 warn shrinkwrap Excluding devDependency: /getpass
+34 warn shrinkwrap Excluding devDependency: /glob
+35 warn shrinkwrap Excluding devDependency: /graphql-tester
+36 warn shrinkwrap Excluding devDependency: /growl
+37 warn shrinkwrap Excluding devDependency: /har-schema
+38 warn shrinkwrap Excluding devDependency: /har-validator
+39 warn shrinkwrap Excluding devDependency: /hawk
+40 warn shrinkwrap Excluding devDependency: /hoek
+41 warn shrinkwrap Excluding devDependency: /http-signature
+42 warn shrinkwrap Excluding devDependency: /inflight
+43 warn shrinkwrap Excluding devDependency: /is-typedarray
+44 warn shrinkwrap Excluding devDependency: /isstream
+45 warn shrinkwrap Excluding devDependency: /jsbn
+46 warn shrinkwrap Excluding devDependency: /json-schema
+47 warn shrinkwrap Excluding devDependency: /json-stringify-safe
+48 warn shrinkwrap Excluding devDependency: /json3
+49 warn shrinkwrap Excluding devDependency: /jsprim
+50 warn shrinkwrap Excluding devDependency: /lodash._baseassign
+51 warn shrinkwrap Excluding devDependency: /lodash._basecopy
+52 warn shrinkwrap Excluding devDependency: /lodash._basecreate
+53 warn shrinkwrap Excluding devDependency: /lodash._getnative
+54 warn shrinkwrap Excluding devDependency: /lodash._isiterateecall
+55 warn shrinkwrap Excluding devDependency: /lodash.create
+56 warn shrinkwrap Excluding devDependency: /lodash.isarguments
+57 warn shrinkwrap Excluding devDependency: /lodash.isarray
+58 warn shrinkwrap Excluding devDependency: /lodash.keys
+59 warn shrinkwrap Excluding devDependency: /lolex
+60 warn shrinkwrap Excluding devDependency: /mocha
+61 warn shrinkwrap Excluding devDependency: /native-promise-only
+62 warn shrinkwrap Excluding devDependency: /oauth-sign
+63 warn shrinkwrap Excluding devDependency: /once
+64 warn shrinkwrap Excluding devDependency: /pathval
+65 warn shrinkwrap Excluding devDependency: /performance-now
+66 warn shrinkwrap Excluding devDependency: /request
+67 warn shrinkwrap Excluding devDependency: /request-promise
+68 warn shrinkwrap Excluding devDependency: /request-promise-core
+69 warn shrinkwrap Excluding devDependency: /samsam
+70 warn shrinkwrap Excluding devDependency: /sinon
+71 warn shrinkwrap Excluding devDependency: /sinon-chai
+72 warn shrinkwrap Excluding devDependency: /sntp
+73 warn shrinkwrap Excluding devDependency: /sshpk
+74 warn shrinkwrap Excluding devDependency: /stealthy-require
+75 warn shrinkwrap Excluding devDependency: /stringstream
+76 warn shrinkwrap Excluding devDependency: /text-encoding
+77 warn shrinkwrap Excluding devDependency: /tough-cookie
+78 warn shrinkwrap Excluding devDependency: /tunnel-agent
+79 warn shrinkwrap Excluding devDependency: /tweetnacl
+80 warn shrinkwrap Excluding devDependency: /type-detect
+81 warn shrinkwrap Excluding devDependency: /uuid
+82 warn shrinkwrap Excluding devDependency: /verror
+83 warn shrinkwrap Excluding devDependency: /wrappy
+84 info lifecycle worship-db@1.0.0~shrinkwrap: worship-db@1.0.0
+85 silly lifecycle worship-db@1.0.0~shrinkwrap: no script for shrinkwrap, continuing
+86 verbose stack Error: Problems were encountered
+86 verbose stack Please correct and try again.
+86 verbose stack peer invalid: graphql@^0.10.0, required by express-graphql@0.6.6
+86 verbose stack     at shrinkwrap_ (/usr/local/lib/node_modules/npm/lib/shrinkwrap.js:128:15)
+86 verbose stack     at Array.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+86 verbose stack     at LOOP (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
+86 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:18:7
+86 verbose stack     at done (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:132:5)
+86 verbose stack     at LOOP (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:7:26)
+86 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:18:7
+86 verbose stack     at /usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:294:20
+86 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:264:29
+86 verbose stack     at FSReqWrap.oncomplete (fs.js:123:15)
+87 verbose cwd /Users/dvelli/Learn/React/graphql-apollo/worship-db
+88 error Darwin 16.6.0
+89 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "shrinkwrap"
+90 error node v6.11.0
+91 error npm  v3.10.10
+92 error Problems were encountered
+92 error Please correct and try again.
+92 error peer invalid: graphql@^0.10.0, required by express-graphql@0.6.6
+93 error If you need help, you may report this error at:
+93 error     <https://github.com/npm/npm/issues>
+94 verbose exit [ 1, true ]
