@@ -9,7 +9,7 @@
   },
   "scripts": {
     "dev": "nodemon index.js --ignore client",
-    "test-server": "mocha ./test/schema/*.spec.js",
+    "test-types": "mocha ./test/schema/*.spec.js",
     "test-integration": "mocha ./test/integration/*.integration.spec.js"
   },
   "author": "",
