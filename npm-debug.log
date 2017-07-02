@@ -1,110 +1,50 @@
 0 info it worked if it ends with ok
-1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'shrinkwrap' ]
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'test-integration' ]
 2 info using npm@3.10.10
 3 info using node@v6.11.0
-4 info lifecycle worship-db@1.0.0~preshrinkwrap: worship-db@1.0.0
-5 silly lifecycle worship-db@1.0.0~preshrinkwrap: no script for preshrinkwrap, continuing
-6 warn shrinkwrap Excluding devDependency: /asn1
-7 warn shrinkwrap Excluding devDependency: /assert-plus
-8 warn shrinkwrap Excluding devDependency: /assertion-error
-9 warn shrinkwrap Excluding devDependency: /asynckit
-10 warn shrinkwrap Excluding devDependency: /aws-sign2
-11 warn shrinkwrap Excluding devDependency: /aws4
-12 warn shrinkwrap Excluding devDependency: /bcrypt-pbkdf
-13 warn shrinkwrap Excluding devDependency: /boom
-14 warn shrinkwrap Excluding devDependency: /browser-stdout
-15 warn shrinkwrap Excluding devDependency: /caseless
-16 warn shrinkwrap Excluding devDependency: /chai
-17 warn shrinkwrap Excluding devDependency: /check-error
-18 warn shrinkwrap Excluding devDependency: /combined-stream
-19 warn shrinkwrap Excluding devDependency: /cryptiles
-20 warn shrinkwrap Excluding devDependency: /dashdash
-21 warn shrinkwrap Excluding devDependency: /deep-eql
-22 warn shrinkwrap Excluding devDependency: /delayed-stream
-23 warn shrinkwrap Excluding devDependency: /diff
-24 warn shrinkwrap Excluding devDependency: /ecc-jsbn
-25 warn shrinkwrap Excluding devDependency: /extend
-26 warn shrinkwrap Excluding devDependency: /extsprintf
-27 warn shrinkwrap Excluding devDependency: /forever-agent
-28 warn shrinkwrap Excluding devDependency: /form-data
-29 warn shrinkwrap Excluding devDependency: /formatio
-30 warn shrinkwrap Excluding devDependency: /freeport
-31 warn shrinkwrap Excluding devDependency: /fs.realpath
-32 warn shrinkwrap Excluding devDependency: /get-func-name
-33 warn shrinkwrap Excluding devDependency: /getpass
-34 warn shrinkwrap Excluding devDependency: /glob
-35 warn shrinkwrap Excluding devDependency: /graphql-tester
-36 warn shrinkwrap Excluding devDependency: /growl
-37 warn shrinkwrap Excluding devDependency: /har-schema
-38 warn shrinkwrap Excluding devDependency: /har-validator
-39 warn shrinkwrap Excluding devDependency: /hawk
-40 warn shrinkwrap Excluding devDependency: /hoek
-41 warn shrinkwrap Excluding devDependency: /http-signature
-42 warn shrinkwrap Excluding devDependency: /inflight
-43 warn shrinkwrap Excluding devDependency: /is-typedarray
-44 warn shrinkwrap Excluding devDependency: /isstream
-45 warn shrinkwrap Excluding devDependency: /jsbn
-46 warn shrinkwrap Excluding devDependency: /json-schema
-47 warn shrinkwrap Excluding devDependency: /json-stringify-safe
-48 warn shrinkwrap Excluding devDependency: /json3
-49 warn shrinkwrap Excluding devDependency: /jsprim
-50 warn shrinkwrap Excluding devDependency: /lodash._baseassign
-51 warn shrinkwrap Excluding devDependency: /lodash._basecopy
-52 warn shrinkwrap Excluding devDependency: /lodash._basecreate
-53 warn shrinkwrap Excluding devDependency: /lodash._getnative
-54 warn shrinkwrap Excluding devDependency: /lodash._isiterateecall
-55 warn shrinkwrap Excluding devDependency: /lodash.create
-56 warn shrinkwrap Excluding devDependency: /lodash.isarguments
-57 warn shrinkwrap Excluding devDependency: /lodash.isarray
-58 warn shrinkwrap Excluding devDependency: /lodash.keys
-59 warn shrinkwrap Excluding devDependency: /lolex
-60 warn shrinkwrap Excluding devDependency: /mocha
-61 warn shrinkwrap Excluding devDependency: /native-promise-only
-62 warn shrinkwrap Excluding devDependency: /oauth-sign
-63 warn shrinkwrap Excluding devDependency: /once
-64 warn shrinkwrap Excluding devDependency: /pathval
-65 warn shrinkwrap Excluding devDependency: /performance-now
-66 warn shrinkwrap Excluding devDependency: /request
-67 warn shrinkwrap Excluding devDependency: /request-promise
-68 warn shrinkwrap Excluding devDependency: /request-promise-core
-69 warn shrinkwrap Excluding devDependency: /samsam
-70 warn shrinkwrap Excluding devDependency: /sinon
-71 warn shrinkwrap Excluding devDependency: /sinon-chai
-72 warn shrinkwrap Excluding devDependency: /sntp
-73 warn shrinkwrap Excluding devDependency: /sshpk
-74 warn shrinkwrap Excluding devDependency: /stealthy-require
-75 warn shrinkwrap Excluding devDependency: /stringstream
-76 warn shrinkwrap Excluding devDependency: /text-encoding
-77 warn shrinkwrap Excluding devDependency: /tough-cookie
-78 warn shrinkwrap Excluding devDependency: /tunnel-agent
-79 warn shrinkwrap Excluding devDependency: /tweetnacl
-80 warn shrinkwrap Excluding devDependency: /type-detect
-81 warn shrinkwrap Excluding devDependency: /uuid
-82 warn shrinkwrap Excluding devDependency: /verror
-83 warn shrinkwrap Excluding devDependency: /wrappy
-84 info lifecycle worship-db@1.0.0~shrinkwrap: worship-db@1.0.0
-85 silly lifecycle worship-db@1.0.0~shrinkwrap: no script for shrinkwrap, continuing
-86 verbose stack Error: Problems were encountered
-86 verbose stack Please correct and try again.
-86 verbose stack peer invalid: graphql@^0.10.0, required by express-graphql@0.6.6
-86 verbose stack     at shrinkwrap_ (/usr/local/lib/node_modules/npm/lib/shrinkwrap.js:128:15)
-86 verbose stack     at Array.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
-86 verbose stack     at LOOP (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
-86 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:18:7
-86 verbose stack     at done (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:132:5)
-86 verbose stack     at LOOP (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:7:26)
-86 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:18:7
-86 verbose stack     at /usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:294:20
-86 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:264:29
-86 verbose stack     at FSReqWrap.oncomplete (fs.js:123:15)
-87 verbose cwd /Users/dvelli/Learn/React/graphql-apollo/worship-db
-88 error Darwin 16.6.0
-89 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "shrinkwrap"
-90 error node v6.11.0
-91 error npm  v3.10.10
-92 error Problems were encountered
-92 error Please correct and try again.
-92 error peer invalid: graphql@^0.10.0, required by express-graphql@0.6.6
-93 error If you need help, you may report this error at:
-93 error     <https://github.com/npm/npm/issues>
-94 verbose exit [ 1, true ]
+4 verbose run-script [ 'pretest-integration',
+4 verbose run-script   'test-integration',
+4 verbose run-script   'posttest-integration' ]
+5 info lifecycle worship-db@1.0.0~pretest-integration: worship-db@1.0.0
+6 silly lifecycle worship-db@1.0.0~pretest-integration: no script for pretest-integration, continuing
+7 info lifecycle worship-db@1.0.0~test-integration: worship-db@1.0.0
+8 verbose lifecycle worship-db@1.0.0~test-integration: unsafe-perm in lifecycle true
+9 verbose lifecycle worship-db@1.0.0~test-integration: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/dvelli/Learn/React/graphql-apollo/worship-db/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/dvelli/.rvm/bin
+10 verbose lifecycle worship-db@1.0.0~test-integration: CWD: /Users/dvelli/Learn/React/graphql-apollo/worship-db
+11 silly lifecycle worship-db@1.0.0~test-integration: Args: [ '-c', 'mocha ./test/integration/*.integration.spec.js' ]
+12 silly lifecycle worship-db@1.0.0~test-integration: Returned: code: 1  signal: null
+13 info lifecycle worship-db@1.0.0~test-integration: Failed to exec test-integration script
+14 verbose stack Error: worship-db@1.0.0 test-integration: `mocha ./test/integration/*.integration.spec.js`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:255:16)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at EventEmitter.emit (events.js:191:7)
+14 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:40:14)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at ChildProcess.emit (events.js:191:7)
+14 verbose stack     at maybeClose (internal/child_process.js:891:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+15 verbose pkgid worship-db@1.0.0
+16 verbose cwd /Users/dvelli/Learn/React/graphql-apollo/worship-db
+17 error Darwin 16.6.0
+18 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "run" "test-integration"
+19 error node v6.11.0
+20 error npm  v3.10.10
+21 error code ELIFECYCLE
+22 error worship-db@1.0.0 test-integration: `mocha ./test/integration/*.integration.spec.js`
+22 error Exit status 1
+23 error Failed at the worship-db@1.0.0 test-integration script 'mocha ./test/integration/*.integration.spec.js'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the worship-db package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     mocha ./test/integration/*.integration.spec.js
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs worship-db
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls worship-db
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]
