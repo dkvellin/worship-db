@@ -1,5 +1,5 @@
 # Worship Songs - Database (React, GraphQL, Apollo)
-A Collection of worship songs dedicated to the LORD ALMIGHTY JESUS CHRIST
+A sample app which displays a Collection of worship songs dedicated to the LORD ALMIGHTY JESUS CHRIST
 
 ## Tech Stack
 
