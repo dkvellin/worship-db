@@ -7,6 +7,7 @@ const chai = require('chai');
 const expect = chai.expect;
 
 describe('Integration', () => {
+
   let app;
 
   before((done) => {
@@ -38,7 +39,8 @@ describe('Integration', () => {
       .then((response) => {
         expect(response.statusCode).to.equal(200);
         expect(response.body).to.have.deep.equals(expected);
-      });
+
+      }).done();
   });
 
 });

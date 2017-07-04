@@ -4,7 +4,7 @@ const express = require('express');
 const graphql = require('graphql').graphql;
 const request = require('request-promise');
 
-const rootSchema = require('../server/schema/root_query_type');
+const rootSchema = require('../server/schema/schema');
 
 function start(done, appPort) {
   const app = express();
