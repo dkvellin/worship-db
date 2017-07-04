@@ -27,20 +27,43 @@ describe('Integration', () => {
     }`;
 
     const expected = {
-		"data": {
-			"song": {
-			  "title": "I Surrender - Hillsong"
-			}
-		}
-	};
+      "data": {
+      	"song": {
+      	  "title": "I Surrender - Hillsong"
+      	}
+      }
+    };
 
     return integrationServer
       .graphqlQuery(app, query)
       .then((response) => {
-        expect(response.statusCode).to.equal(200);
+        expect(response.statusCode).to.equal(400);
         expect(response.body).to.have.deep.equals(expected);
+    }).done();
 
-      }).done();
+  });
+
+  it('Should resolve 13 Songs', () => {
+
+      const query = `{
+        songs {
+          id
+          title
+        }
+      }`;
+
+      const firstSong = {
+        "id": "59544862b454650fe0bea888",
+        "title": "JESUS I Need You - Hillsong Worship"
+      };
+
+      return integrationServer
+        .graphqlQuery(app, query)
+        .then((response) => {
+          expect(response.statusCode).to.equal(200);
+          expect(response.body.songs[0]).to.deep.equal(firstSong);
+          expect(response.body.songs.length).to.equal(13);
+        }).done();
   });
 
 });
