@@ -5,7 +5,7 @@ const chai = require('chai');
 const song_type = require('../../server/schema/song_type');
 const expect = chai.expect;
 
-describe('SongType Test', () => {
+describe('SongType Fields Validation', () => {
 
   	// Check to see if there is an id field of type ID
     it('Should have an id field of type ID', () => {

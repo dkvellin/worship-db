@@ -5,8 +5,8 @@ const chai = require('chai');
 const lyric_type = require('../../server/schema/lyric_type');
 const expect = chai.expect;
 
-describe('LyricType Test', () => {
-  	
+describe('LyricType Fields Validation', () => {
+
   	// Check to see if there is an id field of type ID
     it('Should have an id field of type ID', () => {
 		expect(lyric_type.getFields()).to.have.property('id');
